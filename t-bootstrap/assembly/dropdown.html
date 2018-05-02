@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            网址
+            <span class="caret"></span>
+        </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="https://www.baidu.com/" target="_blank">百度</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.bootcss.com/" target="_blank">Bootstrap</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.sina.com.cn/" target="_blank">新浪</a></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="http://www.qq.com/" target="_blank">腾讯</a></li>
+            </ul>
+        </div>
+        <br>
+        <div class="dropdown">
+            <button type="button" class="btn btn-info dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+		        主题
+		        <span class="caret"></span>
+	        </button>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">Java</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">C#</a>
+                </li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">C++</a>
+                </li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation">
+                    <a role="menuitem" tabindex="-1" href="#">Node.js</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

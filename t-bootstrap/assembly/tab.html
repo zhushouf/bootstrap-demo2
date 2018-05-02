@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <ul id="myTab" class="nav nav-tabs">
+		<li class="active">
+			<a href="#home" data-toggle="tab">
+				视频
+			</a>
+		</li>
+		<li><a href="#TV" data-toggle="tab">电视剧</a></li>
+		<li class="dropdown">
+			<a href="#" id="myTabDrop1" class="dropdown-toggle" data-toggle="dropdown">电影 
+				<b class="caret"></b>
+			</a>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+				<li><a href="#tec" tabindex="-1" data-toggle="tab">科幻</a></li>
+				<li><a href="#hum" tabindex="-1" data-toggle="tab">喜剧</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div id="myTabContent" class="tab-content">
+		<div class="tab-pane fade in active" id="home">
+			<p>视频（Video）泛指将一系列静态影像以电信号的方式加以捕捉、纪录、处理、储存、传送与重现的各种技术。</p>
+		</div>
+		<div class="tab-pane fade" id="TV">
+			<p>电视剧（TV play; teleplay; TV drama; TV serial;）一种专为在电视或互联网上播映的演剧形式。它兼容电影、戏剧、 文学、音乐、舞蹈、绘画、
+				造型等现代艺术诸元素，是一种适应电视广播特点、融合舞台和电影艺术的表现方法而形成的现代艺术样式。一般分单本剧和系列剧（电视影集）</p>
+		</div>
+		<div class="tab-pane fade" id="tec">
+			<p>科幻片是类型片的一种，该类作品采用科幻元素作为题材，以建立在科学上的幻想性情景为背景，在此基础上展开叙事的影视作品</p>
+		</div>
+		<div class="tab-pane fade" id="hum">
+			<p>喜剧是戏剧的一种类型，大众一般解作笑剧或笑片，以夸张的手法、巧妙的结构、诙谐的台词及对喜剧性格的刻画，从而引起人们对丑的、滑稽的嘲笑，对正常的人生和美好的理想予以肯定</p>
+		</div>
+	</div>
+</body>
+</html>

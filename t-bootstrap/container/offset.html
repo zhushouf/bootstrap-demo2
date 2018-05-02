@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="../dist/js/bootstrap.js"></script>
+
+    <style>
+        .bk{
+         background-color: #E6E2EB;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+         height: 100px;
+        }
+
+          .bk2{
+         background-color: #E6E2EB;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+         height: 100px;
+        }
+
+         .bk3{
+         background-color: slategrey;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;
+         height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 bk">.col-md-4</div>
+            <div class="col-md-4 col-md-offset-4 bk">.col-md-4 .col-md-offset-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3 bk">.col-md-3 .col-md-offset-3</div>
+            <div class="col-md-3 col-md-offset-3 bk">.col-md-3 .col-md-offset-3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 bk">.col-md-6 .col-md-offset-3</div>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-9 bk2">
+                Level 1: .col-sm-9
+                <div class="row">
+                    <div class="col-xs-8 col-sm-6 bk3">
+                        Level 2: .col-xs-8 .col-sm-6
+                    </div>
+                    <div class="col-xs-4 col-sm-6 bk3">
+                        Level 2: .col-xs-4 .col-sm-6
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
